@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
+<header>
+    <h1>Safatou's Todo</h1>
+</header>
 <body>
+    <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fa-solid fa-square-plus"></i>
+        </button>
+        <div class="select">
+           <select class="filter-todo todos">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+           </select> 
+        </div>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list"> </ul>
+    </div>
+
+      <div class="cherche">
+        <input type="text" id="input-cherche" placeholder="cherche">
+      </div>
+      <div class="the-list">
+        <ul id="cherche-list">
+            <li></li>
+        </ul>
+      </div>
     <script src="app.js"></script>
 </body>
 </html>
