@@ -121,19 +121,7 @@
     color: #ff6f47;
  }
 
- .cherche {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    padding: 1rem;
-    font-size: 2rem;
- }
- .cherche input {
-    font-size: 2rem;
-    border-radius: 10px;
- }
-
+ 
 
 
 

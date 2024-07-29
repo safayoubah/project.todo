@@ -76,13 +76,3 @@ function filterTodo (e) {
     });
 }
 
-const cherche = document.getElementsByClassName('cherche');
-const inputCherche = document.getElementById('input-cherche');
-const chercheList = document.getElementById('cherche-list');
-
-const students = ["aly", "safayou", "moustapha", "muhamed", "addouraman", "tariq", "ashraf"];
-
-const displayStudent = ù
-
-const html = ``
-
